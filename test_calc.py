@@ -18,6 +18,8 @@ class TestCalc(unittest.TestCase):
         self.assertEqual(calc.multiply(2, 5), 10)
         self.assertEqual(calc.multiply(-1, 1), -1)
         self.assertEqual(calc.multiply(-1, -1), 1)
+        
+ # this is a comment
 
 if __name__ == '__main__':
     unittest.main()
